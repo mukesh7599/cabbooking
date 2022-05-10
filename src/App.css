@@ -1,0 +1,199 @@
+
+.booking{
+  /* background-color:#C2DFFF;  */
+  min-height: 660px;
+}
+.page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #ededec;
+  /* background-image: url("Images/Travel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+.pageFrame{
+  /* display: flex; */
+  flex-direction: column;
+  width: 450px;
+  min-height: 350px ;
+  
+  box-shadow: 1px 1px 0.9px 0.9px #6c757d;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.travelMode{
+  display: flex;
+  width: 100%;
+}
+.travel{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+width: 100%;
+border-right: 0.5px solid rgb(189, 178, 178);
+border-bottom:  0.5px solid gray;
+}
+.outstationTextStyle{
+  font-family: Roboto;
+  font-size: 18px ;
+  margin-bottom: auto;
+  font-weight: 900px;
+  font-style: normal;
+  padding-left: 10px;
+}
+.tripType{
+  width: 100%;
+}
+.getInfo{
+  margin: 10px;
+  font-family: Roboto;
+  font-size: 15px ;
+  margin-bottom: auto;
+  font-weight: 900px;
+  font-style: normal;
+  
+}
+.radio{
+  margin: 10px;
+  font-family: Roboto;
+  font-size: 18px ;
+  margin-bottom: auto;
+  font-weight: 900px;
+  font-style: normal;
+}
+.radioButton{
+  padding-left: 40px;
+}
+.tripDetails{
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+}
+.pickUp{
+  display: flex;
+ align-items:center ;
+ margin-top: 20px;
+ /* margin-left: 10px; */
+}
+.pickUpTextStyle{
+  margin-left: 20px;
+  width: 250px;
+}
+.getDate{
+  margin-left: 10px;
+}
+.dropTextStyle{
+  margin-left: 40px;
+  width: 250px;
+  
+}
+
+.pickUpDate{
+  display: flex;
+  margin-top: 20px;
+  /* width: 100%; */
+}
+.getTime{
+  padding-left: 40px;
+}
+.dateTextStyle{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight:600;
+  
+  margin-bottom: 0;
+}
+.dateTime{
+  width: 190px;
+}
+.selectCar{
+  margin: 20px;
+  
+}
+.submit{
+  background-color: #C2DFFF;
+  border: 0.5px solid #000;
+  border-radius: 5px;
+}
+.carPage{
+  display: flex;
+  flex-direction: column;
+
+  
+}
+.carHeader{
+  display: flex;
+  width: 100%;
+  background-color: #f8f9fa;
+  border: 1px solid #ededec;
+  box-shadow:  2px;
+}
+.place{
+  display: flex;
+  flex-direction: column;
+}
+
+.carType{
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+.carModel{
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  width: 30%;
+ box-shadow: 0.5px 1px 1px 1px #ededec;
+  border-radius: 8px;
+  justify-content: space-between;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.priceDetails{
+  text-align: center;
+}
+.carPrize{
+  color: #e71111;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Roboto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.carPrize2{
+  color: #e71111;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Roboto;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: px;
+}
+.carName{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Roboto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.carButton{
+  /* padding-right: 10px; */
+}
+@media only screen and (max-width: 490px) {
+  .pageFrame{
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+}

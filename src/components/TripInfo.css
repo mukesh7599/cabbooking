@@ -1,0 +1,55 @@
+.userContainer{
+    /* margin-left: 10px; */
+    margin: 0 20px;
+}
+.tripRadio{
+    padding-top: 15px;
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 400;
+}
+.get-User-Input{
+    margin-top: 20px;
+}
+.form-item .ant-form-item-required::before {
+all: unset !important;
+}
+.form-to-item .ant-form-item-required::before {
+    all: unset !important;
+}
+.form-item > div:first-child{
+    text-align: left !important;
+}
+.route-input.ant-input-affix-wrapper{
+    background-color: #F6F7F8 !important ;
+    /* background-color: aqua #important; */
+    border-radius: 4px !important;
+    border:0 !important;   
+}
+
+.route-input .ant-input{
+    background-color: #F6F7F8 !important ;
+    /* background-color: aqua #important; */
+    border-radius: 4px !important;
+    border:0 !important;
+
+}
+.form-to-item > div:first-child{
+    text-align: left !important;
+}
+/* .form-to-item.ant-row {
+    margin-bottom: 10px !important;  ********************************
+} */
+.form-to-item .ant-col-20{
+max-width: 100% ;
+}
+.form-item .ant-col-20{
+    max-width: 100%;
+    }
+
+.form-to-item .ant-form-item-explain{
+font-size: 12px;
+}
+.form-item .ant-form-item-explain{
+    font-size: 12px;
+    }
